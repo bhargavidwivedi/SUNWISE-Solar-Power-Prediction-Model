@@ -6,6 +6,3 @@ joblib==1.5.2
 xgboost==3.1.2  # only if your model uses XGBoost
 plotly==6.5.0   # only if you use plotly graphs
 Pillow==9.5.0   # for image handling
-matplotlib==3.10.8
-seaborn==0.13.2
-altair==5.5.0
