@@ -7,8 +7,8 @@ import joblib
 # PAGE CONFIG
 # -----------------------
 st.set_page_config(
-    page_title="SUNWISE: Solar Power Prediction",
-    layout="wide"
+    page_title="SUNWISE",
+    layout="centered"
 )
 
 # -----------------------
@@ -17,8 +17,18 @@ st.set_page_config(
 st.image("sunrise final logo.jpg",
     width=100
 )
-st.title("SUNWISE: Solar Power Prediction Model")
-st.markdown("Predict solar energy using atmospheric conditions.")
+st.markdown(
+    "<h1 style='text-align: center;'> SUNWISE</h1>",
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    "<p style='text-align: center; color: white;'><b>Solar Power Prediction using Atmospheric Conditions</b></p>",
+    unsafe_allow_html=True
+)
+
+st.divider()
+
 
 # -----------------------
 # SIDEBAR
