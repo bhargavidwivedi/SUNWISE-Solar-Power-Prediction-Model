@@ -35,14 +35,15 @@ st.sidebar.write(
 # -----------------------
 # LOAD MODEL FEATURES
 # -----------------------
-features_path = r"C:\Users\Aditya Dwivedi\OneDrive\Desktop\SOLAR POWER PREDICTION\model_features.pkl"
-features = joblib.load(features_path)
+features_path = "model_features.pkl"
+features = joblib.load("model_features.pkl")
 
 # -----------------------
 # LOAD TRAINED MODEL
 # -----------------------
 model_path = r"C:\Users\Aditya Dwivedi\OneDrive\Desktop\SOLAR POWER PREDICTION\solar_power_rf_model.pkl"
-model = joblib.load(model_path)
+model = joblib.load("solar_power_rf_model.pkl")
+
 
 
 
