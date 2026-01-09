@@ -14,8 +14,7 @@ st.set_page_config(
 # -----------------------
 # HEADER IMAGE / LOGO
 # -----------------------
-st.image(
-    r"C:\Users\Aditya Dwivedi\Downloads\sunrise final logo.jpg",
+st.image("sunrise final logo.jpg",
     width=100
 )
 st.title("SUNWISE: Solar Power Prediction Model")
